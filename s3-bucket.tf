@@ -4,7 +4,7 @@ module "s3-bucket" {
   # insert required variables here
   bucket_prefix = var.prefix
   tags = {
-      "Department" = "Ryan's"
-      "Billable" = "Yes"
+      Department = "Ryan's"
+      Billable = "Yes"
   }
 }
